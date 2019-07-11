@@ -14,7 +14,7 @@ spec:
       spec:
         containers:
         - name: captureorder
-          image: ragsnsakschallenge.azurecr.io/captureorder # replace with your own repository
+          image: ragsnsakschallenge.azurecr.io/captureorder:ca4 # replace with your own repository
           imagePullPolicy: Always
           readinessProbe:
             httpGet:
